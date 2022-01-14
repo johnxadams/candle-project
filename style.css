@@ -1,0 +1,56 @@
+body {
+  margin: 0px;
+  width: 100%;
+}
+#backSpanContainer {
+  margin-left: 20rem;
+}
+
+.backSpan {
+  /* width: 17rem; */
+  padding: 9.7rem;
+  border-left: 1px solid #ff0000;
+  display: inline;
+  padding-bottom: 50rem;
+  z-index: 1;
+}
+
+#top {
+  margin-top: 3rem;
+}
+
+#top h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+  margin-left: 16rem;
+  background-color: aqua;
+  display: inline;
+}
+
+#top ul li {
+  display: inline;
+  background-color: rgb(223, 221, 215);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#top ul a {
+  padding: 3rem;
+  text-decoration: none;
+  color: red;
+}
+
+#top ul span {
+  margin-left: 38rem;
+}
+
+#main #threeBars {
+  margin-left: 20rem;
+}
+#main #threeBars span {
+  display: inline-block;
+  width: 19.5rem;
+  margin-top: 10rem;
+  margin-right: 0.5rem;
+  float: left;
+  background-color: red;
+}
