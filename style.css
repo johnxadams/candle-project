@@ -48,9 +48,43 @@ body {
 }
 #main #threeBars span {
   display: inline-block;
-  width: 19.5rem;
+  width: 19.5rem !important;
   margin-top: 10rem;
   margin-right: 0.5rem;
   float: left;
   background-color: red;
+}
+
+
+#main #threeBars span #rt-img {
+  width: 19.5rem;
+  height: 15rem;
+  display: block;
+  opacity: ;
+  -webkit-transition: 0.9s ease-in-out;
+  /* transition: .3s ease-in-out; */
+}
+
+#main #threeBars span #ss-img {
+  width: 19.5rem;
+  height: 19rem;
+  display: block;
+  opacity: ;
+  -webkit-transition: 0.9s ease-in-out;
+  /* transition: .3s ease-in-out; */
+}
+#main #threeBars span #ov-img {
+  width: 19.5rem;
+  height: 19rem;
+  display: block;
+  opacity: ;
+  -webkit-transition: 0.9s ease-in-out;
+  /* transition: .3s ease-in-out; */
+}
+ /* img #ov-img:hover {
+  opacity: 0.6;
+  transition: 0.9s ease-in-out; */
+}
+#main #threeBars span h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
