@@ -2,6 +2,7 @@ body {
   margin: 0px;
   width: 100%;
 }
+
 #backSpanContainer {
   margin-left: 20rem;
 }
@@ -46,6 +47,7 @@ body {
 #main #threeBars {
   margin-left: 20rem;
 }
+
 #main #threeBars span {
   display: inline-block;
   width: 19.5rem !important;
@@ -54,13 +56,11 @@ body {
   float: left;
   background-color: red;
 }
-
-
+/* hover effekt einrichten */
 #main #threeBars span #rt-img {
   width: 19.5rem;
   height: 15rem;
   display: block;
-  opacity: ;
   -webkit-transition: 0.9s ease-in-out;
   /* transition: .3s ease-in-out; */
 }
@@ -69,22 +69,14 @@ body {
   width: 19.5rem;
   height: 19rem;
   display: block;
-  opacity: ;
   -webkit-transition: 0.9s ease-in-out;
   /* transition: .3s ease-in-out; */
 }
 #main #threeBars span #ov-img {
   width: 19.5rem;
   height: 19rem;
-  display: block;
-  opacity: ;
-  -webkit-transition: 0.9s ease-in-out;
-  /* transition: .3s ease-in-out; */
 }
- /* img #ov-img:hover {
-  opacity: 0.6;
-  transition: 0.9s ease-in-out; */
-}
+
 #main #threeBars span h4 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
