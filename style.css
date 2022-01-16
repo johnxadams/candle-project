@@ -5,15 +5,16 @@ body {
 
 #backSpanContainer {
   margin-left: 20rem;
+  z-index: 1;
 }
-
+/* vertical line in background */
 .backSpan {
-  /* width: 17rem; */
   padding: 9.7rem;
-  border-left: 1px solid #ff0000;
+  border-left: 1px solid #000000;
   display: inline;
   padding-bottom: 50rem;
   z-index: 1;
+  opacity: .1;
 }
 
 #top {
@@ -22,26 +23,27 @@ body {
 
 #top h2 {
   font-family: Arial, Helvetica, sans-serif;
-  color: red;
+  color: rgb(36, 36, 36);
   margin-left: 16rem;
-  background-color: aqua;
   display: inline;
 }
 
 #top ul li {
   display: inline;
-  background-color: rgb(223, 221, 215);
   font-family: Arial, Helvetica, sans-serif;
 }
 
 #top ul a {
   padding: 3rem;
   text-decoration: none;
-  color: red;
+  color: rgb(51, 51, 51);
 }
 
 #top ul span {
   margin-left: 38rem;
+}
+#main {
+  z-index: 2;
 }
 
 #main #threeBars {
@@ -54,9 +56,10 @@ body {
   margin-top: 10rem;
   margin-right: 0.5rem;
   float: left;
-  background-color: red;
-}
-/* hover effekt einrichten */
+  background-color: rgb(172, 202, 231);
+  }
+
+/* hover effekt einrichten. abut how? if I can not touch the object with the curser */
 #main #threeBars span #rt-img {
   width: 19.5rem;
   height: 15rem;
@@ -64,6 +67,7 @@ body {
   -webkit-transition: 0.9s ease-in-out;
   /* transition: .3s ease-in-out; */
 }
+
 
 #main #threeBars span #ss-img {
   width: 19.5rem;
