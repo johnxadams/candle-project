@@ -4,19 +4,17 @@ body {
 }
 
 #backSpanContainer {
-  margin-left: 20rem;
+  border: 2px dashed darkred;
   z-index: -1;
+  display: flex;
 }
 /* vertical line in background */
 .backSpan {
-  padding: 9.7rem;
   border-left: 1px solid #000000;
-  display: inline;
-  padding-bottom: 50rem;
-  position: relative;
-  z-index: -1;
-  opacity: 0.1;
-  
+  height: 50rem;
+  opacity: 0.9;
+  width: 20%;
+
 }
 
 #top {
