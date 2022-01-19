@@ -4,28 +4,44 @@ body {
 }
 
 #backSpanContainer {
-  border: 2px dashed darkred;
+  border: 5px dashed rgb(135, 115, 224);
   z-index: -1;
+  position: absolute;
   display: flex;
+  width: 100%;
 }
 /* vertical line in background */
 .backSpan {
   border-left: 1px solid #000000;
-  height: 50rem;
+  height: 70rem;
   opacity: 0.9;
   width: 20%;
-
 }
 
-#top {
-  margin-top: 3rem;
+#header {
+  border: 2px dashed black;
+  width: 100%;
+  height: 15rem;
+  display: flex;
+  position: absolute;
+  margin-top: 0rem;
+  justify-content: flex-end;
 }
-
-#top h2 {
+#header > ul > span > li {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(36, 36, 36);
-  margin-left: 16rem;
+  margin-right: 5rem;
   display: inline;
+}
+#header > ul > h2 {
+font-size: 50px;
+position: relative;
+right: 80rem;
+top: 5rem;
+}
+#header ul a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
 }
 
 #top ul li {
@@ -33,15 +49,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#top ul a {
-  padding: 3rem;
-  text-decoration: none;
-  color: rgb(51, 51, 51);
-}
-
-#top ul span {
-  margin-left: 38rem;
-}
 #main {
   z-index: -1;
 }
