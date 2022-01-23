@@ -71,7 +71,7 @@ body {
 /* MAIN PART init */
 
 #main {
-  border: 13px dotted rgb(185, 62, 82);
+  border: 1px dotted rgb(185, 62, 82);
   /* position: relative; */
   display: flex;
   width: 100vw;
@@ -83,16 +83,37 @@ body {
   position: relative;
   display: flex;
   padding: 1rem 0 1rem 0;
-  width: 90vw;
+  width: 100vw;
+  justify-content: flex-end;
 }
 
 #main > #magContainer > span {
   display: inline-block;
   width: 20rem;
-  margin-right: 1rem;
+  margin: 0 1rem 0 1rem;
   background-color: rgb(172, 202, 231);
   position: relative;
 }
+#main > #magContainer > :first-child,
+#main > #magContainer > :nth-child(2),
+#main > #magContainer > :nth-child(3),
+#main > #magContainer > :last-child {
+  position: absolute;
+}
+#main > #magContainer > :first-child {
+  right: 71.8%;
+}
+#main > #magContainer > :nth-child(2) {
+  right: 51.95%;
+}
+#main > #magContainer > :nth-child(3) {
+  right: 32.03%;
+}
+#main > #magContainer > :last-child {
+  right: 12.15%;
+}
+
+
 /* #main > #fourBars:first-child {
   position: relative;
   right: 5rem
