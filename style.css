@@ -120,6 +120,8 @@ body {
 } */
 
 /* hover effekt einrichten. abut how? if I can not touch the object with the curser */
+/* zunächst mal alle images zurechtschneiden */
+
 #main #magContainer span #rt-img {
   width: 19.5rem;
   height: 15rem;
